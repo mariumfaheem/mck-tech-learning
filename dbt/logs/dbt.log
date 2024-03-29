@@ -1,0 +1,29 @@
+[0m13:11:46.557533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106341de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110704cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110704f40>]}
+
+
+============================== 13:11:46.572350 | 332bc12a-35b5-449f-8862-c2a4d0c1ffeb ==============================
+[0m13:11:46.572350 [info ] [MainThread]: Running with dbt=1.7.3
+[0m13:11:46.572715 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/Marium_Faheem/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m13:11:55.498854 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m13:11:55.533846 [info ] [MainThread]: 
+Your new dbt project "dbt_first_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:11:55.534203 [info ] [MainThread]: Setting up your profile.
+[0m13:12:24.915311 [info ] [MainThread]: Profile dbt_first_project written to /Users/Marium_Faheem/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:12:24.921758 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 38.38752, "process_user_time": 1.11373, "process_kernel_time": 0.176152, "process_mem_max_rss": "108232704", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:12:24.922294 [debug] [MainThread]: Command `dbt init` succeeded at 13:12:24.922184 after 38.39 seconds
+[0m13:12:24.922587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106341de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1106cbe80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1023d0640>]}
+[0m13:12:24.922855 [debug] [MainThread]: Flushing usage events
